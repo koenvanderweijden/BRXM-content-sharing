@@ -1,0 +1,16 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/common/hst:xpages:
+      jcr:primaryType: hst:xpages
+      /experience-page:
+        jcr:primaryType: hst:xpage
+        hst:referencecomponent: hst:abstractpages/base
+        /main:
+          jcr:primaryType: hst:containercomponent
+          hippo:identifier: d5ab9f9d-6134-4055-9e58-5ac18c4e708a
+          hst:label: Experience Page
+          hst:xtype: HST.vBox
+          /content:
+            jcr:primaryType: hst:containeritemcomponent
+            hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsContentComponent
+            hst:template: contentpage-main

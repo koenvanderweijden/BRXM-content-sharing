@@ -1,0 +1,17 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/common/hst:pages/homepage:
+      jcr:primaryType: hst:component
+      hst:referencecomponent: hst:abstractpages/base
+      /main:
+        jcr:primaryType: hst:component
+        hst:template: homepage-main
+        /container:
+          jcr:primaryType: hst:containercomponentreference
+          hst:referencecomponent: homepage/main
+        /banner:
+          jcr:primaryType: hst:component
+          hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsBannerComponent
+          hst:parameternames: [document, org.hippoecm.hst.core.component.template]
+          hst:parametervalues: [common/banners/banner1, 'webfile:/freemarker/hstdefault/essentials-banner.ftl']
+          hst:template: essentials-banner

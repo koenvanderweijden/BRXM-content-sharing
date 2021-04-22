@@ -1,0 +1,6 @@
+/content/documents/content:
+  jcr:primaryType: hippostd:folder
+  jcr:mixinTypes: ['hippo:named', 'mix:versionable']
+  jcr:uuid: 7c4556c8-7e00-4f93-8858-1e903affda61
+  hippo:name: Content
+  hippostd:foldertype: [new-document, new-folder]

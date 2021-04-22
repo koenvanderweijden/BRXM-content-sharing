@@ -1,0 +1,13 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations/common/hst:pages/newslist:
+      jcr:primaryType: hst:component
+      hst:referencecomponent: hst:abstractpages/base
+      /main:
+        jcr:primaryType: hst:component
+        hst:componentclassname: org.onehippo.cms7.essentials.components.EssentialsNewsComponent
+        hst:parameternames: [hidePastEvents, documentTypes, sortField, sortOrder,
+          includeSubtypes, showPagination, path, pageSize, documentDateField, hideFutureItems]
+        hst:template: newslist-main-newslist
+        hst:parametervalues: ['on', 'myproject:newsdocument', '', desc, 'off', 'on',
+          '', '10', 'myproject:date', 'on']

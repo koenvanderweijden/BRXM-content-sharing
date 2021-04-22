@@ -1,0 +1,5 @@
+/hst:hst/hst:configurations/b2b/hst:workspace/hst:sitemenus/main/xpage:
+  .meta:order-before: home
+  jcr:primaryType: hst:sitemenuitem
+  hst:referencesitemapitem: xpages/common/xpage-one
+  hst:repobased: false

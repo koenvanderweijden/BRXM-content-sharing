@@ -1,0 +1,11 @@
+definitions:
+  config:
+    /hst:hst/hst:configurations:
+      /common:
+        jcr:primaryType: hst:configuration
+      /b2b:
+        jcr:primaryType: hst:configuration
+        hst:inheritsfrom: [../common]
+      /b2c:
+        jcr:primaryType: hst:configuration
+        hst:inheritsfrom: [../common]
